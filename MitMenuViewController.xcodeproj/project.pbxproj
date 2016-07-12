@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DD9BC1C1D3334EE00784C3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9BC1B1D3334EE00784C3C /* main.m */; };
+		3DD9BC1F1D3334EE00784C3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9BC1E1D3334EE00784C3C /* AppDelegate.m */; };
+		3DD9BC251D3334EE00784C3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD9BC231D3334EE00784C3C /* Main.storyboard */; };
+		3DD9BC271D3334EE00784C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD9BC261D3334EE00784C3C /* Assets.xcassets */; };
+		3DD9BC2A1D3334EE00784C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD9BC281D3334EE00784C3C /* LaunchScreen.storyboard */; };
+		3DD9BC351D3334EE00784C3C /* MitMenuViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9BC341D3334EE00784C3C /* MitMenuViewControllerTests.m */; };
+		3DD9BC401D3334EE00784C3C /* MitMenuViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9BC3F1D3334EE00784C3C /* MitMenuViewControllerUITests.m */; };
+		3DD9BC4F1D33350C00784C3C /* MitMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9BC4E1D33350C00784C3C /* MitMenuViewController.m */; };
+		3DD9BC521D3336EB00784C3C /* MitMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9BC511D3336EB00784C3C /* MitMainViewController.m */; };
+		3DD9BC551D3336F400784C3C /* MitLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9BC541D3336F400784C3C /* MitLeftViewController.m */; };
+		3DF575621D33C97400E5C95B /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF575611D33C97400E5C95B /* DemoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DD9BC311D3334EE00784C3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DD9BC0F1D3334ED00784C3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DD9BC161D3334ED00784C3C;
+			remoteInfo = MitMenuViewController;
+		};
+		3DD9BC3C1D3334EE00784C3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DD9BC0F1D3334ED00784C3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DD9BC161D3334ED00784C3C;
+			remoteInfo = MitMenuViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DD9BC171D3334ED00784C3C /* MitMenuViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MitMenuViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD9BC1B1D3334EE00784C3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DD9BC1D1D3334EE00784C3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3DD9BC1E1D3334EE00784C3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3DD9BC241D3334EE00784C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DD9BC261D3334EE00784C3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DD9BC291D3334EE00784C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DD9BC2B1D3334EE00784C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD9BC301D3334EE00784C3C /* MitMenuViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MitMenuViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD9BC341D3334EE00784C3C /* MitMenuViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MitMenuViewControllerTests.m; sourceTree = "<group>"; };
+		3DD9BC361D3334EE00784C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD9BC3B1D3334EE00784C3C /* MitMenuViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MitMenuViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD9BC3F1D3334EE00784C3C /* MitMenuViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MitMenuViewControllerUITests.m; sourceTree = "<group>"; };
+		3DD9BC411D3334EE00784C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD9BC4D1D33350C00784C3C /* MitMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MitMenuViewController.h; sourceTree = "<group>"; };
+		3DD9BC4E1D33350C00784C3C /* MitMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MitMenuViewController.m; sourceTree = "<group>"; };
+		3DD9BC501D3336EB00784C3C /* MitMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MitMainViewController.h; sourceTree = "<group>"; };
+		3DD9BC511D3336EB00784C3C /* MitMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MitMainViewController.m; sourceTree = "<group>"; };
+		3DD9BC531D3336F400784C3C /* MitLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MitLeftViewController.h; sourceTree = "<group>"; };
+		3DD9BC541D3336F400784C3C /* MitLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MitLeftViewController.m; sourceTree = "<group>"; };
+		3DF575601D33C97400E5C95B /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		3DF575611D33C97400E5C95B /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DD9BC141D3334ED00784C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD9BC2D1D3334EE00784C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD9BC381D3334EE00784C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DD9BC0E1D3334ED00784C3C = {
+			isa = PBXGroup;
+			children = (
+				3DD9BC191D3334EE00784C3C /* MitMenuViewController */,
+				3DD9BC331D3334EE00784C3C /* MitMenuViewControllerTests */,
+				3DD9BC3E1D3334EE00784C3C /* MitMenuViewControllerUITests */,
+				3DD9BC181D3334ED00784C3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DD9BC181D3334ED00784C3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DD9BC171D3334ED00784C3C /* MitMenuViewController.app */,
+				3DD9BC301D3334EE00784C3C /* MitMenuViewControllerTests.xctest */,
+				3DD9BC3B1D3334EE00784C3C /* MitMenuViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DD9BC191D3334EE00784C3C /* MitMenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3DD9BC1D1D3334EE00784C3C /* AppDelegate.h */,
+				3DD9BC1E1D3334EE00784C3C /* AppDelegate.m */,
+				3DD9BC231D3334EE00784C3C /* Main.storyboard */,
+				3DD9BC4D1D33350C00784C3C /* MitMenuViewController.h */,
+				3DD9BC4E1D33350C00784C3C /* MitMenuViewController.m */,
+				3DD9BC501D3336EB00784C3C /* MitMainViewController.h */,
+				3DD9BC511D3336EB00784C3C /* MitMainViewController.m */,
+				3DD9BC531D3336F400784C3C /* MitLeftViewController.h */,
+				3DD9BC541D3336F400784C3C /* MitLeftViewController.m */,
+				3DF575601D33C97400E5C95B /* DemoViewController.h */,
+				3DF575611D33C97400E5C95B /* DemoViewController.m */,
+				3DD9BC261D3334EE00784C3C /* Assets.xcassets */,
+				3DD9BC281D3334EE00784C3C /* LaunchScreen.storyboard */,
+				3DD9BC2B1D3334EE00784C3C /* Info.plist */,
+				3DD9BC1A1D3334EE00784C3C /* Supporting Files */,
+			);
+			path = MitMenuViewController;
+			sourceTree = "<group>";
+		};
+		3DD9BC1A1D3334EE00784C3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DD9BC1B1D3334EE00784C3C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DD9BC331D3334EE00784C3C /* MitMenuViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DD9BC341D3334EE00784C3C /* MitMenuViewControllerTests.m */,
+				3DD9BC361D3334EE00784C3C /* Info.plist */,
+			);
+			path = MitMenuViewControllerTests;
+			sourceTree = "<group>";
+		};
+		3DD9BC3E1D3334EE00784C3C /* MitMenuViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DD9BC3F1D3334EE00784C3C /* MitMenuViewControllerUITests.m */,
+				3DD9BC411D3334EE00784C3C /* Info.plist */,
+			);
+			path = MitMenuViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DD9BC161D3334ED00784C3C /* MitMenuViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD9BC441D3334EE00784C3C /* Build configuration list for PBXNativeTarget "MitMenuViewController" */;
+			buildPhases = (
+				3DD9BC131D3334ED00784C3C /* Sources */,
+				3DD9BC141D3334ED00784C3C /* Frameworks */,
+				3DD9BC151D3334ED00784C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MitMenuViewController;
+			productName = MitMenuViewController;
+			productReference = 3DD9BC171D3334ED00784C3C /* MitMenuViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DD9BC2F1D3334EE00784C3C /* MitMenuViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD9BC471D3334EE00784C3C /* Build configuration list for PBXNativeTarget "MitMenuViewControllerTests" */;
+			buildPhases = (
+				3DD9BC2C1D3334EE00784C3C /* Sources */,
+				3DD9BC2D1D3334EE00784C3C /* Frameworks */,
+				3DD9BC2E1D3334EE00784C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DD9BC321D3334EE00784C3C /* PBXTargetDependency */,
+			);
+			name = MitMenuViewControllerTests;
+			productName = MitMenuViewControllerTests;
+			productReference = 3DD9BC301D3334EE00784C3C /* MitMenuViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DD9BC3A1D3334EE00784C3C /* MitMenuViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD9BC4A1D3334EE00784C3C /* Build configuration list for PBXNativeTarget "MitMenuViewControllerUITests" */;
+			buildPhases = (
+				3DD9BC371D3334EE00784C3C /* Sources */,
+				3DD9BC381D3334EE00784C3C /* Frameworks */,
+				3DD9BC391D3334EE00784C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DD9BC3D1D3334EE00784C3C /* PBXTargetDependency */,
+			);
+			name = MitMenuViewControllerUITests;
+			productName = MitMenuViewControllerUITests;
+			productReference = 3DD9BC3B1D3334EE00784C3C /* MitMenuViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DD9BC0F1D3334ED00784C3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Mitchell;
+				TargetAttributes = {
+					3DD9BC161D3334ED00784C3C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					3DD9BC2F1D3334EE00784C3C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3DD9BC161D3334ED00784C3C;
+					};
+					3DD9BC3A1D3334EE00784C3C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3DD9BC161D3334ED00784C3C;
+					};
+				};
+			};
+			buildConfigurationList = 3DD9BC121D3334ED00784C3C /* Build configuration list for PBXProject "MitMenuViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DD9BC0E1D3334ED00784C3C;
+			productRefGroup = 3DD9BC181D3334ED00784C3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DD9BC161D3334ED00784C3C /* MitMenuViewController */,
+				3DD9BC2F1D3334EE00784C3C /* MitMenuViewControllerTests */,
+				3DD9BC3A1D3334EE00784C3C /* MitMenuViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DD9BC151D3334ED00784C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD9BC2A1D3334EE00784C3C /* LaunchScreen.storyboard in Resources */,
+				3DD9BC271D3334EE00784C3C /* Assets.xcassets in Resources */,
+				3DD9BC251D3334EE00784C3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD9BC2E1D3334EE00784C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD9BC391D3334EE00784C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DD9BC131D3334ED00784C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD9BC521D3336EB00784C3C /* MitMainViewController.m in Sources */,
+				3DD9BC1F1D3334EE00784C3C /* AppDelegate.m in Sources */,
+				3DD9BC551D3336F400784C3C /* MitLeftViewController.m in Sources */,
+				3DD9BC1C1D3334EE00784C3C /* main.m in Sources */,
+				3DF575621D33C97400E5C95B /* DemoViewController.m in Sources */,
+				3DD9BC4F1D33350C00784C3C /* MitMenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD9BC2C1D3334EE00784C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD9BC351D3334EE00784C3C /* MitMenuViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD9BC371D3334EE00784C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD9BC401D3334EE00784C3C /* MitMenuViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DD9BC321D3334EE00784C3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DD9BC161D3334ED00784C3C /* MitMenuViewController */;
+			targetProxy = 3DD9BC311D3334EE00784C3C /* PBXContainerItemProxy */;
+		};
+		3DD9BC3D1D3334EE00784C3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DD9BC161D3334ED00784C3C /* MitMenuViewController */;
+			targetProxy = 3DD9BC3C1D3334EE00784C3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DD9BC231D3334EE00784C3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DD9BC241D3334EE00784C3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DD9BC281D3334EE00784C3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DD9BC291D3334EE00784C3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DD9BC421D3334EE00784C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3DD9BC431D3334EE00784C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DD9BC451D3334EE00784C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MitMenuViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roobo.pudding1s;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DD9BC461D3334EE00784C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MitMenuViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roobo.pudding1s;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3DD9BC481D3334EE00784C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MitMenuViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nil.MitMenuViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MitMenuViewController.app/MitMenuViewController";
+			};
+			name = Debug;
+		};
+		3DD9BC491D3334EE00784C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MitMenuViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nil.MitMenuViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MitMenuViewController.app/MitMenuViewController";
+			};
+			name = Release;
+		};
+		3DD9BC4B1D3334EE00784C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MitMenuViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nil.MitMenuViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MitMenuViewController;
+			};
+			name = Debug;
+		};
+		3DD9BC4C1D3334EE00784C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MitMenuViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nil.MitMenuViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MitMenuViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DD9BC121D3334ED00784C3C /* Build configuration list for PBXProject "MitMenuViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD9BC421D3334EE00784C3C /* Debug */,
+				3DD9BC431D3334EE00784C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD9BC441D3334EE00784C3C /* Build configuration list for PBXNativeTarget "MitMenuViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD9BC451D3334EE00784C3C /* Debug */,
+				3DD9BC461D3334EE00784C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD9BC471D3334EE00784C3C /* Build configuration list for PBXNativeTarget "MitMenuViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD9BC481D3334EE00784C3C /* Debug */,
+				3DD9BC491D3334EE00784C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD9BC4A1D3334EE00784C3C /* Build configuration list for PBXNativeTarget "MitMenuViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD9BC4B1D3334EE00784C3C /* Debug */,
+				3DD9BC4C1D3334EE00784C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DD9BC0F1D3334ED00784C3C /* Project object */;
+}
